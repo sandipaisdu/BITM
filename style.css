@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #6699CC;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.myInfo {
+    background: #999900;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    background: #CCCC66;
+    display: block;
+    width: 192px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background: #fff;
+    color: bisque;
+    font-weight: bold;
+}
+
+ul li:hover a {
+    color: #CC9966;
+}
+
+.intro {
+    clear: both;
+}
+
+.graduation {
+    background: #99CC66 none repeat scroll 0 0;
+    float: left;
+    height: 300px;
+    line-height: 55px;
+    text-align: center;
+    width: 600px;
+    color: #fff;
+}
+
+.graduation > h2 {
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.graduation > h4 {
+    font-size: 30px;
+}
+
+.graduation > p {
+    font-size: 30px;
+}
+
+#img {
+    float: right;
+    width: 360px;
+}
+
+img {
+    width: 360px;
+    height: 300px;
+}
+
+.education {
+    background: #999933 none repeat scroll 0 0;
+    clear: both;
+    padding: 20px;
+}
+
+.education > h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ssc {
+    border: 2px dashed #fff;
+    color: #fff;
+    float: left;
+    line-height: 25px;
+    list-style: outside none none;
+    text-align: center;
+    width: 480px;
+}
+
+.hsc {
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+}
+
+.hsc > h2,
+.ssc > h2 {
+    margin-top: 20px;
+}
+
+.ssc > p,
+.hsc > p {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #000 none repeat scroll 0 0;
+    clear: both;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 960px;
+}
+
+#email {
+    float: left;
+    margin-left: 140px;
+}
+
+#email a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#phone {
+    float: right;
+    margin-right: 140px;
+}
+/*lubna@liveoutsource.com*/
